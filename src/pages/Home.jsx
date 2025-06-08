@@ -1,9 +1,13 @@
+import { ThemeToggle } from "../components/ThemeToggle";
 
 export const Home = () => {
-    return <div> 
+    return (
+     <div className="min_height_screen bg-background text-foreground overflow-x-hidden">
 
 
-    { /* theme toggle (light/dark mode) */}
+    { /* theme toggle (light/dark mode) */ }
+    <ThemeToggle/>
+
 
 
     { /* bg effects */}
@@ -19,5 +23,6 @@ export const Home = () => {
 
 
 
-    </div>;
-}
+    </div>
+ );
+};
