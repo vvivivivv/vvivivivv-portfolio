@@ -1,19 +1,27 @@
-import { BrowserRouter } from "react-router-dom"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Home } from "./pages/Home.jsx";
+
+// Simple NotFound component since you don't have one
+const NotFound = () => {
+  return (
+    <div style={{ padding: '20px', textAlign: 'center' }}>
+      <h1>404 - Page Not Found</h1>
+      <p>The page you're looking for doesn't exist.</p>
+    </div>
+  );
+};
 
 function App() {
-
+  console.log('App component rendering!');
+  
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route index element={<Home />}/>
-          <Route path='*' element={<NotFound />}/>
-
-        </Routes>
-      </BrowserRouter>
-     
-    </>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
