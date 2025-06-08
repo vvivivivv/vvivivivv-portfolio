@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home } from "./pages/Home.jsx";
 
-// Simple NotFound component since you don't have one
 const NotFound = () => {
   return (
     <div style={{ padding: '20px', textAlign: 'center' }}>

@@ -6,8 +6,6 @@ export const Home = () => {
       {/* theme toggle (light/dark mode) */}
       <ThemeToggle />
       <div className="p-8">
-        <h1 className="text-4xl font-bold">Test Page</h1>
-        <p>Look for the button in the top-right corner</p>
       </div>
       {/* bg effects */}
       {/* nav bar */}
