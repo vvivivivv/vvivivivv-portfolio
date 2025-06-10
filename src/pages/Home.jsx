@@ -9,7 +9,9 @@ export const Home = () => {
   
       {/* bg effects */}
       <StarBackground />
+
       {/* nav bar */}
+      <NavBar />
       {/* main content */}
       {/* footer */}
   </div>
