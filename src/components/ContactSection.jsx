@@ -1,4 +1,5 @@
-import { Mail, MapPin } from "lucide-react"
+import { Linkedin, Mail, MapPin } from "lucide-react"
+
 
 export const ContactSection = () => {
     return (
@@ -15,12 +16,8 @@ export const ContactSection = () => {
                     Feel free to contact me for projects/internship opportunities :)
                 </p>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-                    <div className="space-y-8">
-                        <h3 className="text-2xl font-semibold mb-6">
-                            Contact Information
-                        </h3>
-
+                <div className="flex justify-center">
+                    <div className="space-y-8 max-w-md">
                         <div className="space-y-6 justify-center"> 
                             <div className="flex items-start">
                                 <div className="p-3 rounded-full bg-primary/10">
@@ -32,9 +29,27 @@ export const ContactSection = () => {
                                     </h4>
                                     <a 
                                     href="mailto:email@gmail.com"
-                                    className="text-muted-foreground hover-primary transition-colors"
+                                    className="text-muted-foreground hover:text-primary transition-colors"
                                     >
                                         {/* email */}
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div className="flex items-start">
+                                <div className="p-3 rounded-full bg-primary/10">
+                                    <Linkedin className="h-6 w-6 text-primary"/>
+                                </div>
+                                <div className="pl-4 text-left">
+                                    <h4 className="font-medium">
+                                        LinkedIn
+                                    </h4>
+                                    <a 
+                                        className="text-muted-foreground hover:text-primary transition-colors"
+                                        href="https://www.linkedin.com/in/xxinyitoh"
+                                        target="_blank"
+                                    >
+                                        https://www.linkedin.com/in/xxinyitoh
                                     </a>
                                 </div>
                             </div>
@@ -55,9 +70,7 @@ export const ContactSection = () => {
                                 </div>
                             </div>
                         </div>
-
                     </div>
-
                 </div>
             </div>
         </section>
