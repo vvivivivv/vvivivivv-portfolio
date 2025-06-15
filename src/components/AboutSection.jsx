@@ -38,7 +38,7 @@ export const AboutSection = () => {
                     </div>
 
                     <div className="grid grid-cols-1 gap-6">
-                        <div className="gradient-border p-6 card-hover">
+                        <div className="gradient-border p-6 card-hover text-[hsl(var(--foreground))] dark:text-white">
                             <div className="flex items-start gap-4">
                                 <div className="p-3 rounded-full bg-primary/10">
                                     <Code className="h-6 w-6 text-primary"/>
@@ -53,7 +53,7 @@ export const AboutSection = () => {
                             </div>
                         </div>
 
-                        <div className="gradient-border p-6 card-hover">
+                        <div className="gradient-border p-6 card-hover text-[hsl(var(--foreground))] dark:text-white">
                             <div className="flex items-start gap-4">
                                 <div className="p-3 rounded-full bg-primary/10">
                                     <User className="h-6 w-6 text-primary"/>
@@ -63,27 +63,11 @@ export const AboutSection = () => {
                                     <p className="text-muted-foreground">
                                         Worked on backend-focused projects using Python and Java, with emphasis on logic, automation, and result analysis.
                                     </p>
-
-                                    {/* add projects github links
-                                    <ul className="mt-2 list-disc list-inside text-sm text-muted-foreground space-y-1">
-                                        <li>
-                                            <a href="" target="_blank" rel="noopener noreferrer" className="hover:underline text-primary">
-                                                ...
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="" target="_blank" rel="noopener noreferrer" className="hover:underline text-primary">
-                                                ...
-                                            </a>
-                                        </li>
-                                    </ul>
-                                    */}
-
                                 </div>
                             </div>
                         </div>
 
-                        <div className="gradient-border p-6 card-hover">
+                        <div className="gradient-border p-6 card-hover text-[hsl(var(--foreground))] dark:text-white">
                             <div className="flex items-start gap-4">
                                 <div className="p-3 rounded-full bg-primary/10">
                                     <Briefcase className="h-6 w-6 text-primary"/>
