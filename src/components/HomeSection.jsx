@@ -16,9 +16,8 @@ export const HomeSection = () => {
                     </h1>
 
                     <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                        I am a Year 3 Computer Science and Business undergraduate specialising in 
+                        I am a Year 3 Computer Science and Business undergraduate from Nanyang Technological University, and I am currently specialising in 
                         AI, Cyber Security, and Business Analytics. 
-                        I am interested in automation, data analytics, and web design.
                     </p>
 
                     <div className="pt-4 opacity-0 animate-fade-in-delay-4">
