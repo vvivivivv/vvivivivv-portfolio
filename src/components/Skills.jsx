@@ -28,6 +28,7 @@ const categories = ["all", "frontend", "backend", "tools"]
 
 export const SkillsSection = () => {
     const [activeCategory, setActiveCategory] = useState("all");
+    const filteredSkills = skills.filter((skill) => activeCategory === "all" || skill.caterogy === activeCategory);
 
     return (
     <section id="skills" 
@@ -56,7 +57,7 @@ export const SkillsSection = () => {
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cos-2 lg:grid-cols-3 gap-6">
-                {skills.map((skills, key) => (
+                {filteredSkills.map((skills, key) => (
                     <div 
                         key={key} 
                         className="bg-card p-6 rounded-lg shadow-xs card-hover"
@@ -71,7 +72,6 @@ export const SkillsSection = () => {
                             <div 
                                 className="bg-primary h-2 rounded-full origin-left animate-[grow_1.5s_ease-out"
                                 style={{width:skills.number + "%"}}
-                            
                             />
                         </div>
 
@@ -80,11 +80,8 @@ export const SkillsSection = () => {
                         </div>
                     </div>
                 ))}
-
             </div>
-
         </div>
-
      </section>
     );
 };
