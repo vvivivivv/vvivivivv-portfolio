@@ -67,13 +67,13 @@ export const AboutSection = () => {
                                     {/* add projects github links
                                     <ul className="mt-2 list-disc list-inside text-sm text-muted-foreground space-y-1">
                                         <li>
-                                            <a href="https://github.com/yourusername/project-1" target="_blank" rel="noopener noreferrer" className="hover:underline text-primary">
-                                                AI Crop Yield Prediction (Python, ML)
+                                            <a href="" target="_blank" rel="noopener noreferrer" className="hover:underline text-primary">
+                                                ...
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://github.com/yourusername/project-2" target="_blank" rel="noopener noreferrer" className="hover:underline text-primary">
-                                                Automation Script for Financial Analysis
+                                            <a href="" target="_blank" rel="noopener noreferrer" className="hover:underline text-primary">
+                                                ...
                                             </a>
                                         </li>
                                     </ul>
