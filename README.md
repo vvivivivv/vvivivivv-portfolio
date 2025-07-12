@@ -1,12 +1,54 @@
-# React + Vite
+# 🌐 Personal Portfolio (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my **personal portfolio website**, built using **ReactJS** and **TailwindCSS**.  
+The project was created by following a [YouTube tutorial](https://www.youtube.com/watch?v=ifOJ0R5UQOc) and then customised for personal branding.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Key Features
 
-## Expanding the ESLint configuration
+- Fully responsive layout with dark/light mode toggle  
+- Smooth scroll navigation  
+- Dynamic sections: About, Skills, Projects, Contact  
+- TailwindCSS custom theming and utility-first styling  
+- Deployed with Github Pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- ReactJS (Frontend Framework)  
+- TailwindCSS (Styling)  
+- Vite (Development build tool)  
+- GitHub Pages (Deployment)
+
+---
+
+## 🔧 Setup Instructions
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/vvivivivv/vvivivivv-portfolio.git
+   cd vvivivivv-portfolio
+
+2. Install dependencies:
+   ```npm install
+
+3. Run development server:
+   ```npm run dev
+
+4. Build for production:
+   ```npm run build
+
+---
+
+## 🔗 Live Demo
+
+vvivivivv.github.io/vvivivivv-portfolio
+
+--
+
+## 📝 Credits
+
+Built with guidance from Pedro Tech on Youtube.
+Design and code modified for personal use.
