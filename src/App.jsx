@@ -14,7 +14,7 @@ function App() {
   console.log('App component rendering!');
   
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/vvivivivv-portfolio">
       <Routes>
         <Route index element={<Home />} />
         <Route path="*" element={<NotFound />} />
