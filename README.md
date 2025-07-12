@@ -32,19 +32,22 @@ The project was created by following a [YouTube tutorial](https://www.youtube.co
    cd vvivivivv-portfolio
 
 2. Install dependencies:
-   ```npm install
+   ```bash
+   npm install
 
 3. Run development server:
-   ```npm run dev
+   ```bash
+   npm run dev
 
 4. Build for production:
-   ```npm run build
+   ```bash
+   npm run build
 
 ---
 
 ## 🔗 Live Demo
 
-vvivivivv.github.io/vvivivivv-portfolio
+https://vvivivivv.github.io/vvivivivv-portfolio
 
 --
 
