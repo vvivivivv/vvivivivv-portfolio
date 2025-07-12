@@ -31,7 +31,7 @@ export const ContactSection = () => {
                                     href="mailto:email@gmail.com"
                                     className="text-muted-foreground hover:text-primary transition-colors"
                                     >
-                                        {/* email */}
+                                        xxinyitoh@gmail.com
                                     </a>
                                 </div>
                             </div>
