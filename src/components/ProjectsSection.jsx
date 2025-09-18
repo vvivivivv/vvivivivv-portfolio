@@ -2,6 +2,9 @@ import { ArrowRight, Github } from "lucide-react";
 import javaImage from "../assets/images/java.png";
 import rstudioImage from "../assets/images/rstudio.png";
 import canvaImage from "../assets/images/canva.png";
+import letterArchiveImage from "../assets/images/letterarchive.png";
+import codeForGoodImage from "../assets/images/codeforgood.png";
+
 
 const projects = [
   {
@@ -14,6 +17,22 @@ const projects = [
   },
   {
     id: 2,
+    title: "Letter Archive Template",
+    description: "Letter Archive Template - progression-based reading experience using React and TypeScript.",
+    image: letterArchiveImage,
+    tags: ["React", "TypeScript"],
+    githubUrl: "https://github.com/vvivivivv/letter-archive",
+  },
+  {
+    id: 3,
+    title: "Morgan Stanley Code For Good Hackathon",
+    description: "Morgan Stanley Code For Good Hackathon - Website for REACH",
+    image: codeForGoodImage,
+    tags: ["React", "JavaScript"],
+    githubUrl: "https://github.com/vvivivivv/CodeForGood_Team19",
+  },
+  {
+    id: 4,
     title: "Crop Yield Analysis",
     description: "Data analysis and ML regression model to predict crop yield productivity and output.",
     image: rstudioImage,
@@ -21,7 +40,7 @@ const projects = [
     githubUrl: "https://github.com/vvivivivv/crop-yield-analytics",
   },
   {
-    id: 3,
+    id: 5,
     title: "Project Mockups via Canva",
     description: "Mockups created with Canva for UI planning and prototyping.",
     image: canvaImage,
