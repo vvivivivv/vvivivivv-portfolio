@@ -4,7 +4,7 @@ import rstudioImage from "../assets/images/rstudio.png";
 import canvaImage from "../assets/images/canva.png";
 import letterArchiveImage from "../assets/images/letterarchive.png";
 import codeForGoodImage from "../assets/images/codeforgood.png";
-
+import applicationTrackerImage from "../assets/images/applicationtracker.png";
 
 const projects = [
   {
@@ -33,14 +33,22 @@ const projects = [
   },
   {
     id: 4,
+    title: "Application Tracker",
+    description: "A simple full-stack web application to track internship and job applications.",
+    image: applicationTrackerImage,
+    tags: ["React", "JavaScript"],
+    githubUrl: "https://github.com/vvivivivv/application-tracker",
+  },
+  {
+    id: 5,
     title: "Crop Yield Analysis",
     description: "Data analysis and ML regression model to predict crop yield productivity and output.",
     image: rstudioImage,
     tags: ["R Studio", "Machine Learning"],
-    githubUrl: "https://github.com/vvivivivv/crop-yield-analytics",
+    githubUrl: "https://github.com/vvivivivv/crop-yield-analysis",
   },
   {
-    id: 5,
+    id: 6,
     title: "Project Mockups via Canva",
     description: "Mockups created with Canva for UI planning and prototyping.",
     image: canvaImage,
