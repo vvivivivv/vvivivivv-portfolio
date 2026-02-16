@@ -1,7 +1,7 @@
 import { ArrowRight, Github } from "lucide-react";
 import javaImage from "../assets/images/java.png";
 import rstudioImage from "../assets/images/rstudio.png";
-import canvaImage from "../assets/images/canva.png";
+import beyondBinaryImage from "../assets/images/beyondbinary.png";
 import letterArchiveImage from "../assets/images/letterarchive.png";
 import codeForGoodImage from "../assets/images/codeforgood.png";
 import applicationTrackerImage from "../assets/images/applicationtracker.png";
@@ -49,11 +49,11 @@ const projects = [
   },
   {
     id: 6,
-    title: "Project Mockups via Canva",
-    description: "Mockups created with Canva for UI planning and prototyping.",
-    image: canvaImage,
-    tags: ["Canva", "Design"],
-    githubUrl: "https://github.com/vvivivivv/project-mockups",
+    title: "Accessibility Chrome Extension",
+    description: "A Chrome extension for improved user-controlled accessibility experience.",
+    image: beyondBinaryImage,
+    tags: ["React", "JavaScript", "Chrome Extension"],
+    githubUrl: "https://github.com/vvivivivv/beyond-binary-hackathon",
   },
 ];
 
